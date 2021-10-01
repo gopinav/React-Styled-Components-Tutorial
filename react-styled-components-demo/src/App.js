@@ -1,5 +1,5 @@
 import './App.css'
-import Button, { FancyButton } from './components/Button/Button'
+import Button, { FancyButton, SubmitButton } from './components/Button/Button'
 
 function App() {
   return (
@@ -13,6 +13,10 @@ function App() {
         <br />
       </div>
       <FancyButton>Fancy Button</FancyButton>
+      <div>
+        <br />
+      </div>
+      <SubmitButton>Submit</SubmitButton>
     </div>
   )
 }
