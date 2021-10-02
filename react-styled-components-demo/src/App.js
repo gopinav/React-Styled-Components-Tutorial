@@ -1,5 +1,8 @@
 import './App.css'
 import Button, { FancyButton, SubmitButton } from './components/Button/Button'
+import logo from './logo.svg'
+import './styles.css'
+import { AnimatedLogo } from './components/Button/Button.styles'
 
 function App() {
   return (
@@ -17,6 +20,11 @@ function App() {
         <br />
       </div>
       <SubmitButton>Submit</SubmitButton>
+      <div>
+        <br />
+      </div>
+      <img src={logo} className='App-logo' alt='logo' />
+      <AnimatedLogo src={logo} />
     </div>
   )
 }
